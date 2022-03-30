@@ -15,10 +15,10 @@ html {
 }
 
 :root {
-  --background: #f5f6fa;
+  --background: #FFFFFF;
 
-  --primary: #373D4F;
-  --secondary: #9098AE;
+  --primary: ##713FFF;
+  --secondary: #3C184E;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 
 body, button, textarea, input {
   color: var(--primary);
-  font: 400 1rem "Roboto", sans-serif;
+  font: 400 1rem "Rubik", sans-serif;
 }
 
 a {

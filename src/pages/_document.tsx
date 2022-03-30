@@ -16,7 +16,11 @@ export default class MyDocument extends Document {
           <meta name="author" content="Luciano Victor" />
 
           <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap"
             rel="stylesheet"
           />
         </Head>
