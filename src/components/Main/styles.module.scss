@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  // background: blue;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 100%;
+
+  p {
+    position: absolute;
+    width: 520px;
+    height: 160px;
+    left: 160px;
+    top: 214px;
+
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--secondary);
+
+    span {
+      position: relative;
+      z-index: 2;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -24px;
+      left: 0;
+      background-image: url("../../../public/highlight.png");
+      width: 239px;
+      height: 24px;
+      }
+    }
+  }
+   h1 {
+    position: absolute;
+    width: 481px;
+    height: 19px;
+    left: 160px;
+    top: 416px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+
+  position: absolute;
+
+  width: 100%;
+  max-width: 450px;
+  margin-top: 2.875rem;
+  height: 43px;
+  left: 160px;
+  top: 465px;
+
+  button {
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-start;
+    padding: 12px 32px;
+    position: relative;
+
+    border: 0;
+    height: 45px;
+    background: var(--primary);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    &.btn-contribute {
+      background: rgb(113, 63, 255,0.9);
+      transition: all 0.4s;
+    }
+    &:hover {
+      background: var(--primary);
+    }
+  }
+  &.btn-contact {
+    border: 2px solid var(--secondary);
+    background: transparent;
+    transition: all 0.4s;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 465px;
+      left: 160px;
+      width: 139px;
+      height: 45px;
+      background: var(--secondary);
+      transform: all 0.4s;
+
+      transform-origin: left;
+    }
+  }
+}
+
+.dog img{
+  position: absolute;
+  width: 380px;
+  top: 193px;
+  right: 257px;
+  top: 280px;
+
+.background img {
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  left: 691px;
+  top: 245.96px;
+
+  background: linear-gradient(180deg, #3CB7DE 0%, #3FA3FF 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 500px 0px 0px 500px;
+  transform: rotate(-17.91deg);
+  }
+}
+
+
+
+.racao img {
+  position: absolute;
+  width: 300px;
+  height: 248px;
+  left: 1750px;
+  top: 510px;
+}

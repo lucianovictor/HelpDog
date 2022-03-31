@@ -17,7 +17,7 @@ html {
 :root {
   --background: #FFFFFF;
 
-  --primary: ##713FFF;
+  --primary: #713FFF;
   --secondary: #3C184E;
 }
 
@@ -25,8 +25,8 @@ body {
   background: var(--background);
 }
 
-body, button, textarea, input {
-  color: var(--primary);
+body, textarea, input {
+  color: var(--secondary);
   font: 400 1rem "Rubik", sans-serif;
 }
 
@@ -37,6 +37,7 @@ a {
 
 button {
   border: 0;
+  color: var(--background);
 
   &:hover {
     cursor: pointer;
